@@ -2,7 +2,7 @@ overlays:
   - name: rpi_generic
     image: ghcr.io/siderolabs/sbc-raspberrypi:v0.1.1
   - name: rpi_custom
-    image: ghcr.io/skyssolutions/sbc-raspberrypi:v1.9.2-skylab.20@sha256:c1c880b3420cde5e7caff61a482e03a8cbe57940471dd9b33a9791739f3c72b2
+    image: ghcr.io/skyssolutions/sbc-raspberrypi@sha256:c1c880b3420cde5e7caff61a482e03a8cbe57940471dd9b33a9791739f3c72b2
   - name: rockpi4
     image: ghcr.io/siderolabs/sbc-rockchip:v0.1.2
   - name: rockpi4c
