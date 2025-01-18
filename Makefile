@@ -1,6 +1,6 @@
 # THIS FILE WAS AUTOMATICALLY GENERATED, PLEASE DO NOT EDIT.
 #
-# Generated on 2024-08-08T15:42:07Z by kres dbf015a.
+# Generated on 2025-01-18T00:00:54Z by kres 3b3f992.
 
 # common variables
 
@@ -13,7 +13,7 @@ IMAGE_TAG ?= $(TAG)
 OPERATING_SYSTEM := $(shell uname -s | tr '[:upper:]' '[:lower:]')
 GOARCH := $(shell uname -m | sed 's/x86_64/amd64/' | sed 's/aarch64/arm64/')
 REGISTRY ?= ghcr.io
-USERNAME ?= siderolabs
+USERNAME ?= skyssolutions
 REGISTRY_AND_USERNAME ?= $(REGISTRY)/$(USERNAME)
 KRES_IMAGE ?= ghcr.io/siderolabs/kres:latest
 CONFORMANCE_IMAGE ?= ghcr.io/siderolabs/conform:latest
