@@ -1,5 +1,5 @@
 overlays:
   - name: rpi_generic
-    image: ghcr.io/skyssolutions/sbc-raspberrypi:v1.9.2-skylab.34
+    image: ghcr.io/skyssolutions/sbc-raspberrypi:v1.9.2-skylab.35
   - name: rpi_5
-    image: ghcr.io/skyssolutions/sbc-raspberrypi:v1.9.2-skylab.34
+    image: ghcr.io/skyssolutions/sbc-raspberrypi:v1.9.2-skylab.35
